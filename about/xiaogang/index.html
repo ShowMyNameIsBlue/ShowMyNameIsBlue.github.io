@@ -10,17 +10,17 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
-    <meta name="description" content="@media (min-width:800px) {  				.personal{ 					height: 250px; 				} 				#me-introduce{ 					height: 150px; 					float: left; 					position: absolute; 					line-height: 37px; 					font">
+    <meta name="description" content="@media (min-width:800px) {  				.personal{ 					height: 250px; 					position: relative; 				} 				#me{ 					width: 250px; 					height: 150px; 					background:url(index/me.jpg); 					ba">
 <meta property="og:type" content="website">
 <meta property="og:title" content="小刚的个人博客">
-<meta property="og:url" content="http://yoursite.com/about/index.html">
+<meta property="og:url" content="http://yoursite.com/about/xiaogang/index.html">
 <meta property="og:site_name" content="小刚的个人博客">
-<meta property="og:description" content="@media (min-width:800px) {  				.personal{ 					height: 250px; 				} 				#me-introduce{ 					height: 150px; 					float: left; 					position: absolute; 					line-height: 37px; 					font">
+<meta property="og:description" content="@media (min-width:800px) {  				.personal{ 					height: 250px; 					position: relative; 				} 				#me{ 					width: 250px; 					height: 150px; 					background:url(index/me.jpg); 					ba">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-04-26T08:49:14.211Z">
+<meta property="og:updated_time" content="2019-04-26T08:23:38.176Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="小刚的个人博客">
-<meta name="twitter:description" content="@media (min-width:800px) {  				.personal{ 					height: 250px; 				} 				#me-introduce{ 					height: 150px; 					float: left; 					position: absolute; 					line-height: 37px; 					font">
+<meta name="twitter:description" content="@media (min-width:800px) {  				.personal{ 					height: 250px; 					position: relative; 				} 				#me{ 					width: 250px; 					height: 150px; 					background:url(index/me.jpg); 					ba">
     
 
     
@@ -147,6 +147,14 @@
 			@media (min-width:800px) { 
 				.personal{
 					height: 250px;
+					position: relative;
+				}
+				#me{
+					width: 250px;
+					height: 150px;
+					background:url(index/me.jpg);
+					background-size:cover;
+					margin-left: 100px
 				}
 				#me-introduce{
 					height: 150px;
@@ -160,6 +168,8 @@
 				}
 				.bigbox{
 					height: 142px;
+					position: relative;
+					margin-left: 100px;
 				}
 				.middlebox{
 					height: 140px;
@@ -169,12 +179,6 @@
 					text-align: center;
 					font-size: 16px;
 				}
-				.middle1{
-					margin-left: 100px;
-				}
-				#my-number{
-					height: 100px;
-				}
 				.number{
 					height: 100px;
 					line-height: 50px;
@@ -187,69 +191,43 @@
 				#tel{
 					margin-bottom: 20px;
 				}
-			}
-			@media (max-width:800px){
-				#me-introduce{
-					height: 120px;
-					line-height: 30px;
-					font-size:16px;
-					margin-left: 100px;
-					margin-top: 30px;
-				}
-				.bigbox{
-					height: 420px;
-					margin-left: 100px;
-				}
-				.middlebox{
-					height: 140px;
+				.img{
 					width: 100px;
-					text-align: center;
-					font-size: 16px;
+					height: 100px;
+				}
+				.blockchain{
+					background: url(index/blockchain.jpg);
+					background-size: cover;
+				}
+				.java{
+					background: url(index/java.jpg);
+					background-size: cover;
+				}
+				.nodejs{
+					background: url(index/nodejs.png);
+					background-size: cover;
 				}
 				#my-number{
-					height: 200px;
-				}
-				.number{
 					height: 100px;
-					line-height: 50px;
-					font-size:14px;
 				}
+				#weixin{
+					height: 100px;
+					width: 100px;
+					background: url(index/wechat.jpg);
+					background-size: cover;
+					float:left;
+					margin-left: 100px;
+				}
+			}
+			@media (min-width:300px){
 				.left{
 					float: none;
 					margin-left: 100px;
 				}
-				#tel{
-					margin-bottom: 20px;
+				.middlebox{
+					float: none;
+					margin-left: 100px;
 				}
-			}
-			#me{
-				width: 250px;
-				height: 150px;
-				background:url(index/me.jpg);
-				background-size:cover;
-				margin-left: 100px;
-			}
-			.img{
-				width: 100px;
-				height: 100px;
-			}
-			.blockchain{
-				background: url(index/blockchain.jpg);
-				background-size: cover;
-			}
-			.java{
-				background: url(index/java.jpg);
-				background-size: cover;
-			}
-			.nodejs{
-				background: url(index/nodejs.png);
-				background-size: cover;
-			}
-			#weixin{
-				height: 100px;
-				width: 100px;
-				background: url(index/wechat.jpg);
-				background-size: cover;
 			}
 			
 		</style>
@@ -258,20 +236,18 @@
 		<div class="main-con">
 			<div class="personal">
 				<h3>我的介绍</h3>
-				<div>
-					<div id="me" class="left"></div>
-					<div id="me-introduce" class="left">
-						小刚<br>
-						22岁<br>
-						后端工程师<br>
-						爱好电影，音乐，踏青<br>
-					</div>
+				<div id="me"></div>
+				<div id="me-introduce">
+					小刚<br>
+					22岁<br>
+					后端工程师<br>
+					爱好电影，音乐，踏青
 				</div>
 			</div>
 			<div>
 				<h3>我的技能</h3>
 				<div class="bigbox">
-					<div class="middlebox middle1">
+					<div class="middlebox">
 						<div class="blockchain img"></div>
 						<p>blockchain</p>
 					</div>
@@ -285,10 +261,10 @@
 					</div>
 				
 			</div>
-			<div>
+			<div id="tel">
 				<h3>联系方式</h3>
 				<div id="my-number">
-					<div id="weixin" class="left"></div>
+					<div id="weixin"></div>
 					<div class="number left">
 						微信：qy1140574499<br>
 						QQ:1140574499
@@ -305,7 +281,7 @@
 
 
 
-    <a data-url="http://yoursite.com/about/index.html" data-id="cjuxhwc8s00002cqpoaxtv6qd" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
+    <a data-url="http://yoursite.com/about/xiaogang/index.html" data-id="cjuxhwcb200042cqpdr4hcycs" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
 <script>
     (function ($) {
         $('body').on('click', function() {
@@ -382,7 +358,7 @@
         "datePublished": "2019-04-26",
         "dateCreated": "2019-04-26",
         "dateModified": "2019-04-26",
-        "url": "http://yoursite.com/about/index.html",
+        "url": "http://yoursite.com/about/xiaogang/index.html",
         "description": "
 
 	
@@ -392,14 +368,14 @@
 			@media (min-width:800px) { 
 				.personal{
 					height: 250px;
+					position: relative;
 				}
-				#me-introduce{
+				#me{
+					width: 250px;
 					height: 150px;
-					float: left;
-					position: absolute;
-					line-height: 37px;
-					font"
-        "wordCount": 84
+					background:url(index/me.jpg);
+					ba"
+        "wordCount": 72
     }
 </script>
 
@@ -567,7 +543,7 @@
     var disqus_shortname = 'hexo-theme-hueman';
     
     
-    var disqus_url = 'http://yoursite.com/about/index.html';
+    var disqus_url = 'http://yoursite.com/about/xiaogang/index.html';
     
     (function() {
     var dsq = document.createElement('script');
