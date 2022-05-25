@@ -1,0 +1,10 @@
+.site-name {
+  font-style: italic;
+}
+
+.blog-hero h1 {
+  color: var(--text-color);
+  & + p {
+    color: var(--text-color);
+  }
+}

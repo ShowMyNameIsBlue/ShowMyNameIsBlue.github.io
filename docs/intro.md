@@ -1,7 +1,8 @@
 ---
 icon: info
+title: 关于网站
 ---
 
-# Intro Page
+vuepress 搭建的网站
 
-Place your introducation and profile here.
+hello world

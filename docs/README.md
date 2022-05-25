@@ -2,22 +2,13 @@
 home: true
 layout: Blog
 icon: home
-title: 博客主页
+title: 主页
 heroImage: /logo.svg
-heroText: 你博客的名称
+bgImage: /bg.jpg
+heroText: 𝓜𝓻. 𝓞𝓻𝓪𝓷𝓰𝓮
+tagline: Happiness depends upon ourselves
 heroFullScreen: true
-tagline: 你可以在这里放置你的口号与标语
 projects:
-  - icon: project
-    name: 项目名称
-    desc: 项目详细描述
-    link: https://你的项目链接
-
-  - icon: link
-    name: 链接名称
-    desc: 链接详细描述
-    link: https://链接地址
-
   - icon: book
     name: 书籍名称
     desc: 书籍详细描述
@@ -38,11 +29,5 @@ projects:
     desc: 自定义详细介绍
     link: https://你的自定义链接
 
-footer: 自定义你的页脚文字
+footer: hello world
 ---
-
-这是一个博客主页。
-
-要使用此布局，你应该在页面前端设置 `layout: Blog` 和 `home: true`。
-
-相关配置文档请见 [博客主页](https://vuepress-theme-hope.github.io/v2/zh/guide/blog/home/)。

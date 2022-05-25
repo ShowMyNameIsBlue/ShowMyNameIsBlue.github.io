@@ -2,10 +2,11 @@
 home: true
 layout: Blog
 icon: home
-title: Blog Home
+title: Home
 heroImage: /logo.svg
-heroText: the name of your blog
-tagline: You can put your slogan here
+bgImage: /bg.jpg
+heroText: 𝓜𝓻. 𝓞𝓻𝓪𝓷𝓰𝓮
+tagline: Happiness depends upon ourselves
 heroFullScreen: true
 projects:
   - icon: project
