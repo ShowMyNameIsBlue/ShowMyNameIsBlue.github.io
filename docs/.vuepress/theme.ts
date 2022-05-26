@@ -109,14 +109,14 @@ export default hopeTheme({
       /**
        * Using twikoo
        */
-      // type: 'twikoo',
-      // envId: 'https://twikoo.ccknbc.vercel.app'
+      type: 'twikoo',
+      envId: 'https://twikoo.ccknbc.vercel.app'
 
       /**
        * Using Waline
        */
-      type: 'waline',
-      serverURL: 'https://vuepress-theme-hope-comment.vercel.app'
+      // type: 'waline',
+      // serverURL: 'https://vuepress-theme-hope-comment.vercel.app'
     },
 
     mdEnhance: {
