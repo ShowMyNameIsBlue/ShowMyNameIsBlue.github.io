@@ -15,11 +15,19 @@ export default hopeTheme({
 
   logo: '/logo.svg',
 
-  repo: 'vuepress-theme-hope/vuepress-theme-hope',
+  repo: 'https://github.com/ShowMyNameIsBlue/ShowMyNameIsBlue.github.io',
 
   docsDir: 'demo/src',
 
-  pageInfo: ['Author', 'Original', 'Date', 'Category', 'Tag', 'ReadingTime'],
+  pageInfo: [
+    'Author',
+    'Original',
+    'Date',
+    'Category',
+    'Tag',
+    'ReadingTime',
+    'PageView'
+  ],
 
   blog: {
     name: 'Mr.Orange',
@@ -52,7 +60,7 @@ export default hopeTheme({
 
       blog: {
         description: '一个还算有趣的前端开发者',
-        intro: '/en/intro.html'
+        intro: '/intro.html'
       }
     },
     '/en/': {
@@ -68,7 +76,7 @@ export default hopeTheme({
 
       blog: {
         description: 'A FrontEnd programmer',
-        intro: '/intro.html'
+        intro: '/en/intro.html'
       }
     }
   },

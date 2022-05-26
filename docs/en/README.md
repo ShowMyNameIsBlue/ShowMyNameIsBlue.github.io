@@ -9,16 +9,6 @@ heroText: 𝓜𝓻. 𝓞𝓻𝓪𝓷𝓰𝓮
 tagline: Happiness depends upon ourselves
 heroFullScreen: true
 projects:
-  - icon: project
-    name: project name
-    desc: project detailed description
-    link: https://your.project.link
-
-  - icon: link
-    name: link name
-    desc: link detailed description
-    link: https://link.address
-
   - icon: book
     name: book name
     desc: Detailed description of the book
@@ -39,11 +29,5 @@ projects:
     desc: Detailed description of this custom item
     link: https://link.to.your.friend
 
-footer: customize your footer text
+footer: hello world
 ---
-
-This is a blog home page.
-
-To use this layout, you should set both `layout: Blog` and `home: true` in the page front matter.
-
-For related configuration docs, please see [blog homepage](https://vuepress-theme-hope.github.io/v2/guide/blog/home/).
