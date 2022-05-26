@@ -34,7 +34,7 @@ export default hopeTheme({
     medias: {
       GitHub: 'https://github.com/ShowMyNameIsBlue',
       Gmail: 'https://bluesandviola@gmail.com',
-      网易云: [
+      Music: [
         // 链接
         'https://music.163.com/#/user/home?id=342374623',
         // 图标地址
@@ -75,7 +75,7 @@ export default hopeTheme({
       displayFooter: true,
 
       blog: {
-        description: 'A FrontEnd programmer',
+        description: 'An interesting  FrontEnd programmer',
         intro: '/en/intro.html'
       }
     }
@@ -100,23 +100,23 @@ export default hopeTheme({
       /**
        * Using giscus
        */
-      type: 'giscus',
-      repo: 'vuepress-theme-hope/giscus-discussions',
-      repoId: 'R_kgDOG_Pt2A',
-      category: 'Announcements',
-      categoryId: 'DIC_kwDOG_Pt2M4COD69'
+      // type: 'giscus',
+      // repo: 'vuepress-theme-hope/giscus-discussions',
+      // repoId: 'R_kgDOG_Pt2A',
+      // category: 'Announcements',
+      // categoryId: 'DIC_kwDOG_Pt2M4COD69'
 
       /**
        * Using twikoo
        */
-      // type: "twikoo",
-      // envId: "https://twikoo.ccknbc.vercel.app",
+      // type: 'twikoo',
+      // envId: 'https://twikoo.ccknbc.vercel.app'
 
       /**
        * Using Waline
        */
-      // type: "waline",
-      // serverURL: "https://vuepress-theme-hope-comment.vercel.app",
+      type: 'waline',
+      serverURL: 'https://vuepress-theme-hope-comment.vercel.app'
     },
 
     mdEnhance: {

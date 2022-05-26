@@ -6,7 +6,7 @@ export const en = navbar([
   {
     text: 'Posts',
     icon: 'edit',
-    prefix: '/en/posts/',
+    prefix: '/en/posts/article/',
     children: ['article1']
   }
 ]);
