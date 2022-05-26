@@ -1,7 +1,7 @@
 import { hopeTheme } from 'vuepress-theme-hope';
 import * as navbar from './navbar';
 import * as sidebar from './sidebar';
-import { resolve } from 'path';
+import { path } from '@vuepress/utils';
 export default hopeTheme({
   hostname: 'https://showmynameisblue.github.io/',
   darkmode: 'toggle',
@@ -30,7 +30,7 @@ export default hopeTheme({
         // 链接
         'https://music.163.com/#/user/home?id=342374623',
         // 图标地址
-        resolve(__dirname, 'public/icons/wangyiyun.svg')
+        path.resolve(__dirname, 'public/icons/wangyiyun.svg')
       ]
     }
   },
