@@ -1,6 +1,6 @@
 ---
 icon: info
-title: 关于网站
+title: 关于
 ---
 
 vuepress 搭建的网站

@@ -42,7 +42,6 @@ export default hopeTheme({
       ]
     }
   },
-
   locales: {
     /**
      * Chinese locale config

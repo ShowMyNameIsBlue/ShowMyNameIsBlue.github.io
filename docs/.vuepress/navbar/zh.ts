@@ -4,9 +4,13 @@ export const zh = navbar([
   '/',
   { text: '随记', icon: 'like', link: '/like/' },
   {
-    text: '博文',
-    icon: 'edit',
-    prefix: '/posts/article/',
-    children: ['article1']
+    text: '前端',
+    icon: 'html',
+    link: '/fontend/'
+  },
+  {
+    text: '学习笔记',
+    icon: 'code',
+    link: '/code/'
   }
 ]);
