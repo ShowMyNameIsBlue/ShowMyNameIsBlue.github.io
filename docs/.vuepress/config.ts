@@ -1,4 +1,5 @@
 import { defineUserConfig } from 'vuepress';
+import { searchPlugin } from '@vuepress/plugin-search';
 import theme from './theme';
 export default defineUserConfig({
   base: '/',
@@ -17,6 +18,18 @@ export default defineUserConfig({
         'Mr.Orange blog. Blog with blogger own articles or reproduced, mostly technical, and some with in mind. Hope that we can communicate。'
     }
   },
-
+  plugins: [
+    searchPlugin({
+      // 你的选项
+      locales: {
+        '/': {
+          placeholder: '搜索'
+        },
+        '/en/': {
+          placeholder: 'Search'
+        }
+      }
+    })
+  ],
   theme
 });
