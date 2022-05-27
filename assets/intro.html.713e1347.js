@@ -1,0 +1,1 @@
+import{_ as o}from"./plugin-vue_export-helper.21dcd24c.js";import{o as t,c as r,F as s,a as e}from"./app.264abc38.js";const n={},l=e("p",null,"blog is base on vuepress",-1),a=e("p",null,"hello world",-1);function _(c,i){return t(),r(s,null,[l,a],64)}var p=o(n,[["render",_],["__file","intro.html.vue"]]);export{p as default};
