@@ -10,7 +10,7 @@ category:
 tag:
   - 技术
   - Markdown
-  - 写作
+  - 目录
 ---
 
 一些技术的个人学习理解和总结
@@ -19,4 +19,4 @@ tag:
 
 ### 技术文档
 
-1. [Markdown使用入门](technics/Markdown使用入门)
+1. [Markdown 使用入门](technics/Markdown使用入门)

@@ -9,17 +9,17 @@ category:
   - 前端
 tag:
   - 技术
-  - 前端
+  - 目录
 ---
 
 HTML、CSS、JavaScript、ES6、Vue 框架等前端技术
 
 ## 目录
 
-### JavaScript文章
+### JavaScript 文章
 
-1. [JS中的ToPrimitive原始值转换](javascript/JS中的ToPrimitive原始值转换)
+1. [JS 中的 ToPrimitive 原始值转换](javascript/JS中的ToPrimitive原始值转换)
 
-### HTML文章
+### HTML 文章
 
-1. [H5语义化标签](html/H5语义化标签)
+1. [H5 语义化标签](html/H5语义化标签)

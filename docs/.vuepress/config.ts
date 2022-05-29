@@ -29,7 +29,7 @@ export default defineUserConfig({
           placeholder: 'Search'
         }
       }
-    })
-  ],
+    }),
+  ],  
   theme
 });
