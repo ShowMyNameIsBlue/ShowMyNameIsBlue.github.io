@@ -1,6 +1,6 @@
 ---
-title: 相簿
-icon: slides
+title: 印象
+icon: palette
 layout: Slide
 ---
 

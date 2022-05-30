@@ -12,9 +12,11 @@ export const zh = navbar([
     text: '学习笔记',
     icon: 'exercise',
     link: '/code/'
-  },{
-    text: '相簿',
-    icon: 'pic',
-    link: '/slide.md'
-  }
+  },
+  {
+    text: '发现',
+    icon: 'discover',
+    prefix: "/",
+    children: ["slide.md"]
+  },
 ]);
