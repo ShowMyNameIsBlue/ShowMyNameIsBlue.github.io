@@ -1,6 +1,7 @@
 ---
 title: 印象
 layout: Slide
+description: 一些好看的图片
 icon: pic
 ---
 
