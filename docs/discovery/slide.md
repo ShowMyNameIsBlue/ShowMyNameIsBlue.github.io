@@ -1,6 +1,7 @@
 ---
 title: 印象
 layout: Slide
+icon: pic
 ---
 
 <!-- markdownlint-disable MD024 MD033 -->
