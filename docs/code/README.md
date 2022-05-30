@@ -1,6 +1,6 @@
 ---
 index: false
-icon: code
+icon: exercise
 date: 2022-05-27
 title: 学习笔记
 sidebar: false

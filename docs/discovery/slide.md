@@ -1,6 +1,5 @@
 ---
 title: 印象
-icon: palette
 layout: Slide
 ---
 

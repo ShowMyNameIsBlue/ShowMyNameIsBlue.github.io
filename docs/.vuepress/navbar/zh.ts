@@ -16,7 +16,7 @@ export const zh = navbar([
   {
     text: '发现',
     icon: 'discover',
-    prefix: "/",
-    children: ["slide.md"]
-  },
+    prefix: '/discovery/',
+    children: ['slide.md', 'amazing.md']
+  }
 ]);
