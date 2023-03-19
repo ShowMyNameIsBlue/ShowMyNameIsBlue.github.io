@@ -23,3 +23,5 @@ HTML、CSS、JavaScript、ES6、Vue 框架等前端技术
 ### HTML 文章
 
 1. [H5 语义化标签](html/H5语义化标签)
+
+2. [浏览器渲染合成层](html/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%B8%B2%E6%9F%93%E5%90%88%E6%88%90%E5%B1%82.md)
