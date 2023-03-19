@@ -1,1 +1,0 @@
-import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o as r,c as a}from"./app.924d0de9.js";const t={};function c(n,o){return r(),a("p",null,"\u642D\u5EFA\u4E2D")}var l=e(t,[["render",c],["__file","amazing.html.vue"]]);export{l as default};
