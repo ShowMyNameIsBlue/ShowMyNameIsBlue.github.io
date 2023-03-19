@@ -7,7 +7,7 @@ export default hopeTheme({
   darkmode: 'toggle',
   author: {
     name: 'Mr.Orange',
-    url: 'https://showmynameisblue.github.io/'
+    url: 'https://showmynameisblue.github.io/',
   },
 
   iconAssets: '//at.alicdn.com/t/font_2410206_a0xb9hku9iu.css',
@@ -26,7 +26,7 @@ export default hopeTheme({
     'Category',
     'Tag',
     'ReadingTime',
-    'PageView'
+    'PageView',
   ],
 
   blog: {
@@ -38,9 +38,9 @@ export default hopeTheme({
         // 链接
         'https://music.163.com/#/user/home?id=342374623',
         // 图标地址
-        path.resolve(__dirname, 'public/icons/wangyiyun.svg')
-      ]
-    }
+        path.resolve(__dirname, 'public/icons/wangyiyun.svg'),
+      ],
+    },
   },
   locales: {
     /**
@@ -58,9 +58,9 @@ export default hopeTheme({
       displayFooter: true,
 
       blog: {
-        description: '一个还算有趣的前端开发者',
-        intro: '/intro.html'
-      }
+        description: '一个还算有趣的开发者',
+        intro: '/intro.html',
+      },
     },
     '/en/': {
       // navbar
@@ -75,9 +75,9 @@ export default hopeTheme({
 
       blog: {
         description: 'An interesting  FrontEnd programmer',
-        intro: '/en/intro.html'
-      }
-    }
+        intro: '/en/intro.html',
+      },
+    },
   },
 
   // encrypt: {
@@ -89,7 +89,7 @@ export default hopeTheme({
 
   plugins: {
     blog: {
-      autoExcerpt: true
+      autoExcerpt: true,
     },
 
     // If you don't need comment feature, you can remove following option
@@ -109,7 +109,7 @@ export default hopeTheme({
        * Using twikoo
        */
       type: 'twikoo',
-      envId: 'https://twikoo-seven-kappa.vercel.app/'
+      envId: 'https://twikoo-seven-kappa.vercel.app/',
 
       /**
        * Using Waline
@@ -121,8 +121,8 @@ export default hopeTheme({
     mdEnhance: {
       enableAll: true,
       presentation: {
-        plugins: ['highlight', 'math', 'search', 'notes', 'zoom']
-      }
-    }
-  }
+        plugins: ['highlight', 'math', 'search', 'notes', 'zoom'],
+      },
+    },
+  },
 });
